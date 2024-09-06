@@ -1,0 +1,191 @@
+Info: Series:GW1N-9C Device:GW1NR-9C Package:QFN88P Speed:C6/I5
+Info: Cell catodo_po[6] not found
+Info: Cell catodo_po[6] not found
+Info: Cell catodo_po[5] not found
+Info: Cell catodo_po[5] not found
+Info: Cell catodo_po[0] not found
+Info: Cell catodo_po[0] not found
+Info: Cell catodo_po[1] not found
+Info: Cell catodo_po[1] not found
+Info: Cell catodo_po[4] not found
+Info: Cell catodo_po[4] not found
+Info: Cell catodo_po[3] not found
+Info: Cell catodo_po[3] not found
+Info: Cell catodo_po[2] not found
+Info: Cell catodo_po[2] not found
+Info: Cell anodo_po[1] not found
+Info: Cell anodo_po[1] not found
+Info: Cell anodo_po[0] not found
+Info: Cell anodo_po[0] not found
+Info: Cell clk_pi not found
+Info: Cell clk_pi not found
+Info: Cell rst_pi not found
+Info: Cell rst_pi not found
+Info: Cell codigo_bin_led_po[0] not found
+Info: Cell codigo_bin_led_po[0] not found
+Info: Cell codigo_bin_led_po[1] not found
+Info: Cell codigo_bin_led_po[1] not found
+Info: Cell codigo_bin_led_po[2] not found
+Info: Cell codigo_bin_led_po[2] not found
+Info: Cell codigo_bin_led_po[3] not found
+Info: Cell codigo_bin_led_po[3] not found
+Info: Cell codigo_gray_pi[0] not found
+Info: Cell codigo_gray_pi[0] not found
+Info: Cell codigo_gray_pi[1] not found
+Info: Cell codigo_gray_pi[1] not found
+Info: Cell codigo_gray_pi[2] not found
+Info: Cell codigo_gray_pi[2] not found
+Info: Cell codigo_gray_pi[3] not found
+Info: Cell codigo_gray_pi[3] not found
+
+Info: Packing constants..
+Info: Packing Shadow RAM..
+Info: Packing GSR..
+Info: Packing IOs..
+Info: Packing diff IOs..
+Info: Packing IO logic..
+Info: Packing wide LUTs..
+Info: Packing LUT5s..
+Info: Packing LUT6s..
+Info: Packing LUT7s..
+Info: Packing LUT8s..
+Info: Packing ALUs..
+Info: Packing LUT-FFs..
+Info: Packing non-LUT FFs..
+Info: Packing PLLs..
+Info: Checksum: 0xc057f98e
+
+Info: Annotating ports with timing budgets for target frequency 27.00 MHz
+Info: Checksum: 0xc057f98e
+
+Info: Device utilisation:
+Info: 	                 VCC:     1/    1   100%
+Info: 	               SLICE:    10/ 8640     0%
+Info: 	                 IOB:     6/  274     2%
+Info: 	                ODDR:     0/  274     0%
+Info: 	           MUX2_LUT5:     0/ 4320     0%
+Info: 	           MUX2_LUT6:     0/ 2160     0%
+Info: 	           MUX2_LUT7:     0/ 1080     0%
+Info: 	           MUX2_LUT8:     0/ 1056     0%
+Info: 	                 GND:     1/    1   100%
+Info: 	                RAMW:     0/  270     0%
+Info: 	                 GSR:     1/    1   100%
+Info: 	                 OSC:     0/    1     0%
+Info: 	                rPLL:     0/    2     0%
+
+Info: Placed 0 cells based on constraints.
+Info: Creating initial analytic placement for 8 cells, random placement wirelen = 301.
+Info:     at initial placer iter 0, wirelen = 145
+Info:     at initial placer iter 1, wirelen = 145
+Info:     at initial placer iter 2, wirelen = 145
+Info:     at initial placer iter 3, wirelen = 145
+Info: Running main analytical placer, max placement attempts per cell = 10000.
+Info:     at iteration #1, type SLICE: wirelen solved = 145, spread = 154, legal = 154; time = 0.00s
+Info:     at iteration #1, type GND: wirelen solved = 154, spread = 154, legal = 154; time = 0.00s
+Info:     at iteration #1, type VCC: wirelen solved = 154, spread = 154, legal = 154; time = 0.00s
+Info:     at iteration #1, type GSR: wirelen solved = 154, spread = 154, legal = 154; time = 0.00s
+Info:     at iteration #1, type ALL: wirelen solved = 145, spread = 154, legal = 154; time = 0.00s
+Info: HeAP Placer Time: 0.01s
+Info:   of which solving equations: 0.00s
+Info:   of which spreading cells: 0.00s
+Info:   of which strict legalisation: 0.00s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 3, wirelen = 154
+Info:   at iteration #5: temp = 0.000000, timing cost = 6, wirelen = 92
+Info:   at iteration #10: temp = 0.000000, timing cost = 6, wirelen = 92
+Info:   at iteration #13: temp = 0.000000, timing cost = 6, wirelen = 92 
+Info: SA placement time 0.00s
+
+Info: Max frequency for clock 'clk_IBUF_I_O': 316.86 MHz (PASS at 27.00 MHz)
+
+Info: Max delay posedge clk_IBUF_I_O -> <async>: 11.26 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 1 endpoint(s)
+Info:          + represents [1,1) endpoint(s)
+Info: [ 25779,  26280) |** 
+Info: [ 26280,  26781) | 
+Info: [ 26781,  27282) | 
+Info: [ 27282,  27783) | 
+Info: [ 27783,  28284) | 
+Info: [ 28284,  28785) | 
+Info: [ 28785,  29286) | 
+Info: [ 29286,  29787) | 
+Info: [ 29787,  30288) | 
+Info: [ 30288,  30789) | 
+Info: [ 30789,  31290) | 
+Info: [ 31290,  31791) | 
+Info: [ 31791,  32292) | 
+Info: [ 32292,  32793) | 
+Info: [ 32793,  33294) | 
+Info: [ 33294,  33795) | 
+Info: [ 33795,  34296) |**** 
+Info: [ 34296,  34797) | 
+Info: [ 34797,  35298) | 
+Info: [ 35298,  35799) |****** 
+Info: Checksum: 0xe5b9884e
+Info: Find global nets...
+Info:  Non clock source, skip clk_IBUF_I_O.
+Info: Routing globals...
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 32 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:         73 |       41         32 |   41    32 |         0|       0.30       0.30|
+Info: Routing complete.
+Info: Router1 time 0.30s
+Info: Checksum: 0x766dfe1e
+
+Info: Critical path report for clock 'clk_IBUF_I_O' (posedge -> posedge):
+Info: curr total
+Info:  0.5  0.5  Source clk_IBUF_I_O_DFFC_CLK_1_DFFLC.Q
+Info:  0.5  0.9    Net clk_IBUF_I_O_DFFC_CLK_Q[2] budget 36.579037 ns (32,3) -> (32,2)
+Info:                Sink clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_2_ALULC.B
+Info:  1.1  2.0  Source clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_2_ALULC.F
+Info:  0.8  2.8    Net clk_IBUF_I_O_DFFC_CLK_D[2] budget 17.740519 ns (32,2) -> (32,3)
+Info:                Sink clk_IBUF_I_O_DFFC_CLK_1_DFFLC.A
+Info:                Defined in:
+Info:                  ../design/module_counter.v:12.22-12.31
+Info:                  C:\FPGA\OSS-CA~1\bin\../share/yosys/gowin/arith_map.v:34.28-34.29
+Info:  0.0  2.8  Setup clk_IBUF_I_O_DFFC_CLK_1_DFFLC.A
+Info: 1.6 ns logic, 1.3 ns routing
+
+Info: Critical path report for cross-domain path 'posedge clk_IBUF_I_O' -> '<async>':
+Info: curr total
+Info:  0.5  0.5  Source clk_IBUF_I_O_DFFC_CLK_3_DFFLC.Q
+Info:  6.4  6.8    Net clk_IBUF_I_O_DFFC_CLK_Q[0] budget 36.579037 ns (32,3) -> (33,28)
+Info:                Sink count_OBUF_O_3$iob.I
+Info: 0.5 ns logic, 6.4 ns routing
+
+Info: Max frequency for clock 'clk_IBUF_I_O': 352.11 MHz (PASS at 27.00 MHz)
+
+Info: Max delay posedge clk_IBUF_I_O -> <async>: 6.85 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 1 endpoint(s)
+Info:          + represents [1,1) endpoint(s)
+Info: [ 30188,  30487) |* 
+Info: [ 30487,  30786) |* 
+Info: [ 30786,  31085) | 
+Info: [ 31085,  31384) | 
+Info: [ 31384,  31683) | 
+Info: [ 31683,  31982) | 
+Info: [ 31982,  32281) | 
+Info: [ 32281,  32580) | 
+Info: [ 32580,  32879) | 
+Info: [ 32879,  33178) | 
+Info: [ 33178,  33477) | 
+Info: [ 33477,  33776) | 
+Info: [ 33776,  34075) | 
+Info: [ 34075,  34374) |** 
+Info: [ 34374,  34673) |** 
+Info: [ 34673,  34972) | 
+Info: [ 34972,  35271) | 
+Info: [ 35271,  35570) |* 
+Info: [ 35570,  35869) |* 
+Info: [ 35869,  36168) |**** 
+
+Info: Program finished normally.
