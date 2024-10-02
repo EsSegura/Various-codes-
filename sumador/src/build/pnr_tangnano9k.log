@@ -1,0 +1,231 @@
+Info: Series:GW1N-9C Device:GW1NR-9C Package:QFN88P Speed:C6/I5
+
+Info: Packing constants..
+Info: Packing Shadow RAM..
+Info: Packing GSR..
+Info: Packing IOs..
+Info: Packing diff IOs..
+Info: Packing IO logic..
+Info: Packing wide LUTs..
+Info: Packing LUT5s..
+Info: Packing LUT6s..
+Info: Packing LUT7s..
+Info: Packing LUT8s..
+Info: Packing ALUs..
+Info: Packing LUT-FFs..
+Info: Packing non-LUT FFs..
+Info: Packing PLLs..
+Info: Checksum: 0xf5ae19eb
+
+Info: Annotating ports with timing budgets for target frequency 27.00 MHz
+Info: Checksum: 0xf5ae19eb
+
+Info: Device utilisation:
+Info: 	                 VCC:     1/    1   100%
+Info: 	               SLICE:    50/ 8640     0%
+Info: 	                 IOB:    13/  274     4%
+Info: 	                ODDR:     0/  274     0%
+Info: 	           MUX2_LUT5:     3/ 4320     0%
+Info: 	           MUX2_LUT6:     1/ 2160     0%
+Info: 	           MUX2_LUT7:     0/ 1080     0%
+Info: 	           MUX2_LUT8:     0/ 1056     0%
+Info: 	                 GND:     1/    1   100%
+Info: 	                RAMW:     0/  270     0%
+Info: 	                 GSR:     1/    1   100%
+Info: 	                 OSC:     0/    1     0%
+Info: 	                rPLL:     0/    2     0%
+
+Info: Placed 13 cells based on constraints.
+Info: Creating initial analytic placement for 34 cells, random placement wirelen = 1677.
+Info:     at initial placer iter 0, wirelen = 170
+Info:     at initial placer iter 1, wirelen = 145
+Info:     at initial placer iter 2, wirelen = 158
+Info:     at initial placer iter 3, wirelen = 154
+Info: Running main analytical placer, max placement attempts per cell = 10000.
+Info:     at iteration #1, type SLICE: wirelen solved = 154, spread = 241, legal = 243; time = 0.00s
+Info:     at iteration #1, type MUX2_LUT5: wirelen solved = 244, spread = 244, legal = 244; time = 0.00s
+Info:     at iteration #1, type MUX2_LUT6: wirelen solved = 244, spread = 244, legal = 244; time = 0.00s
+Info:     at iteration #1, type VCC: wirelen solved = 244, spread = 244, legal = 244; time = 0.00s
+Info:     at iteration #1, type GND: wirelen solved = 244, spread = 244, legal = 244; time = 0.00s
+Info:     at iteration #1, type GSR: wirelen solved = 244, spread = 244, legal = 244; time = 0.00s
+Info:     at iteration #1, type ALL: wirelen solved = 143, spread = 229, legal = 243; time = 0.00s
+Info:     at iteration #2, type SLICE: wirelen solved = 171, spread = 260, legal = 263; time = 0.00s
+Info:     at iteration #2, type MUX2_LUT5: wirelen solved = 263, spread = 263, legal = 263; time = 0.00s
+Info:     at iteration #2, type MUX2_LUT6: wirelen solved = 253, spread = 253, legal = 254; time = 0.00s
+Info:     at iteration #2, type VCC: wirelen solved = 254, spread = 254, legal = 254; time = 0.00s
+Info:     at iteration #2, type GND: wirelen solved = 254, spread = 254, legal = 254; time = 0.00s
+Info:     at iteration #2, type GSR: wirelen solved = 254, spread = 254, legal = 254; time = 0.00s
+Info:     at iteration #2, type ALL: wirelen solved = 149, spread = 229, legal = 241; time = 0.01s
+Info:     at iteration #3, type SLICE: wirelen solved = 161, spread = 233, legal = 233; time = 0.00s
+Info:     at iteration #3, type MUX2_LUT5: wirelen solved = 230, spread = 230, legal = 230; time = 0.00s
+Info:     at iteration #3, type MUX2_LUT6: wirelen solved = 228, spread = 228, legal = 232; time = 0.00s
+Info:     at iteration #3, type VCC: wirelen solved = 232, spread = 232, legal = 232; time = 0.00s
+Info:     at iteration #3, type GND: wirelen solved = 232, spread = 232, legal = 232; time = 0.00s
+Info:     at iteration #3, type GSR: wirelen solved = 232, spread = 232, legal = 232; time = 0.00s
+Info:     at iteration #3, type ALL: wirelen solved = 144, spread = 229, legal = 235; time = 0.00s
+Info:     at iteration #4, type SLICE: wirelen solved = 152, spread = 230, legal = 231; time = 0.00s
+Info:     at iteration #4, type MUX2_LUT5: wirelen solved = 229, spread = 229, legal = 233; time = 0.00s
+Info:     at iteration #4, type MUX2_LUT6: wirelen solved = 236, spread = 236, legal = 236; time = 0.00s
+Info:     at iteration #4, type VCC: wirelen solved = 236, spread = 236, legal = 236; time = 0.00s
+Info:     at iteration #4, type GND: wirelen solved = 236, spread = 236, legal = 236; time = 0.00s
+Info:     at iteration #4, type GSR: wirelen solved = 236, spread = 236, legal = 236; time = 0.00s
+Info:     at iteration #4, type ALL: wirelen solved = 153, spread = 238, legal = 238; time = 0.00s
+Info:     at iteration #5, type SLICE: wirelen solved = 153, spread = 229, legal = 253; time = 0.00s
+Info:     at iteration #5, type MUX2_LUT5: wirelen solved = 249, spread = 249, legal = 250; time = 0.00s
+Info:     at iteration #5, type MUX2_LUT6: wirelen solved = 253, spread = 253, legal = 259; time = 0.00s
+Info:     at iteration #5, type VCC: wirelen solved = 259, spread = 259, legal = 259; time = 0.00s
+Info:     at iteration #5, type GND: wirelen solved = 259, spread = 259, legal = 259; time = 0.00s
+Info:     at iteration #5, type GSR: wirelen solved = 259, spread = 259, legal = 259; time = 0.00s
+Info:     at iteration #5, type ALL: wirelen solved = 147, spread = 235, legal = 243; time = 0.00s
+Info:     at iteration #6, type SLICE: wirelen solved = 165, spread = 238, legal = 244; time = 0.00s
+Info:     at iteration #6, type MUX2_LUT5: wirelen solved = 245, spread = 245, legal = 247; time = 0.00s
+Info:     at iteration #6, type MUX2_LUT6: wirelen solved = 241, spread = 241, legal = 241; time = 0.00s
+Info:     at iteration #6, type VCC: wirelen solved = 241, spread = 241, legal = 241; time = 0.00s
+Info:     at iteration #6, type GND: wirelen solved = 241, spread = 241, legal = 241; time = 0.00s
+Info:     at iteration #6, type GSR: wirelen solved = 241, spread = 241, legal = 241; time = 0.00s
+Info:     at iteration #6, type ALL: wirelen solved = 151, spread = 240, legal = 245; time = 0.00s
+Info:     at iteration #7, type SLICE: wirelen solved = 177, spread = 239, legal = 250; time = 0.00s
+Info:     at iteration #7, type MUX2_LUT5: wirelen solved = 254, spread = 254, legal = 254; time = 0.00s
+Info:     at iteration #7, type MUX2_LUT6: wirelen solved = 248, spread = 248, legal = 254; time = 0.00s
+Info:     at iteration #7, type VCC: wirelen solved = 254, spread = 254, legal = 254; time = 0.00s
+Info:     at iteration #7, type GND: wirelen solved = 254, spread = 254, legal = 254; time = 0.01s
+Info:     at iteration #7, type GSR: wirelen solved = 254, spread = 254, legal = 254; time = 0.00s
+Info:     at iteration #7, type ALL: wirelen solved = 164, spread = 245, legal = 245; time = 0.01s
+Info:     at iteration #8, type SLICE: wirelen solved = 163, spread = 241, legal = 240; time = 0.01s
+Info:     at iteration #8, type MUX2_LUT5: wirelen solved = 239, spread = 239, legal = 241; time = 0.00s
+Info:     at iteration #8, type MUX2_LUT6: wirelen solved = 241, spread = 241, legal = 241; time = 0.00s
+Info:     at iteration #8, type VCC: wirelen solved = 241, spread = 241, legal = 241; time = 0.00s
+Info:     at iteration #8, type GND: wirelen solved = 241, spread = 241, legal = 241; time = 0.00s
+Info:     at iteration #8, type GSR: wirelen solved = 241, spread = 241, legal = 241; time = 0.00s
+Info:     at iteration #8, type ALL: wirelen solved = 177, spread = 209, legal = 221; time = 0.01s
+Info: HeAP Placer Time: 0.22s
+Info:   of which solving equations: 0.07s
+Info:   of which spreading cells: 0.03s
+Info:   of which strict legalisation: 0.01s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 7, wirelen = 221
+Info:   at iteration #2: temp = 0.000000, timing cost = 7, wirelen = 217 
+Info: SA placement time 0.04s
+
+Info: Max frequency for clock 'SUBMODULE_BIN_BCD.clk_i': 189.11 MHz (PASS at 27.00 MHz)
+
+Info: Max delay <async>                         -> <async>: 13.60 ns
+Info: Max delay posedge SUBMODULE_BIN_BCD.clk_i -> <async>: 14.76 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 1 endpoint(s)
+Info:          + represents [1,1) endpoint(s)
+Info: [ 22281,  22976) |* 
+Info: [ 22976,  23671) |**** 
+Info: [ 23671,  24366) |* 
+Info: [ 24366,  25061) | 
+Info: [ 25061,  25756) | 
+Info: [ 25756,  26451) |* 
+Info: [ 26451,  27146) |* 
+Info: [ 27146,  27841) | 
+Info: [ 27841,  28536) |* 
+Info: [ 28536,  29231) |** 
+Info: [ 29231,  29926) | 
+Info: [ 29926,  30621) |** 
+Info: [ 30621,  31316) | 
+Info: [ 31316,  32011) |*** 
+Info: [ 32011,  32706) |* 
+Info: [ 32706,  33401) |*********** 
+Info: [ 33401,  34096) |********** 
+Info: [ 34096,  34791) |* 
+Info: [ 34791,  35486) |************* 
+Info: [ 35486,  36181) |********************* 
+Info: Checksum: 0x3ff6ed15
+Info: Find global nets...
+Info: Routing globals...
+Info:   Route net SUBMODULE_BIN_BCD.clk_i, use clock #0.
+Info:   Net SUBMODULE_BIN_BCD.clk_i is routed.
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 155 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:        158 |        3        155 |    3   155 |         0|       2.54       2.54|
+Info: Routing complete.
+Info: Router1 time 2.54s
+Info: Checksum: 0xc2602351
+
+Info: Critical path report for clock 'SUBMODULE_BIN_BCD.clk_i' (posedge -> posedge):
+Info: curr total
+Info:  0.5  0.5  Source SUBMODULE_DISPLAY.cuenta_salida_DFFS_Q_3_DFFLC.Q
+Info:  0.4  0.9    Net SUBMODULE_DISPLAY.cuenta_salida[8] budget 36.579037 ns (25,13) -> (24,13)
+Info:                Sink SUBMODULE_BIN_BCD.rst_i_LUT4_I0_I1_LUT2_F_1_LC.B
+Info:                Defined in:
+Info:                  ../design/module_7_segments.v:13.41-13.54
+Info:  1.1  2.0  Source SUBMODULE_BIN_BCD.rst_i_LUT4_I0_I1_LUT2_F_1_LC.F
+Info:  0.4  2.4    Net SUBMODULE_BIN_BCD.rst_i_LUT4_I0_I1[1] budget 17.740519 ns (24,13) -> (24,12)
+Info:                Sink SUBMODULE_DISPLAY.en_conmutador_DFFR_Q_D_MUX2_LUT5_O_I1_LUT4_F_LC.B
+Info:                Defined in:
+Info:                  /home/estebansega/Downloads/oss-cad-suite-linux-x64-20240809/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.1  3.5  Source SUBMODULE_DISPLAY.en_conmutador_DFFR_Q_D_MUX2_LUT5_O_I1_LUT4_F_LC.F
+Info:  0.3  3.8    Net SUBMODULE_DISPLAY.en_conmutador_DFFR_Q_D_MUX2_LUT5_O_I1 budget 8.551509 ns (24,12) -> (24,12)
+Info:                Sink SUBMODULE_DISPLAY.en_conmutador_DFFR_Q_D_MUX2_LUT5_O_LC.I1
+Info:                Defined in:
+Info:                  /home/estebansega/Downloads/oss-cad-suite-linux-x64-20240809/oss-cad-suite/lib/../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:  0.2  4.0  Source SUBMODULE_DISPLAY.en_conmutador_DFFR_Q_D_MUX2_LUT5_O_LC.OF
+Info:  0.5  4.5    Net SUBMODULE_DISPLAY.en_conmutador_DFFR_Q_D budget 8.551509 ns (24,12) -> (24,12)
+Info:                Sink SUBMODULE_DISPLAY.en_conmutador_DFFR_Q_DFFLC.A
+Info:  0.0  4.5  Setup SUBMODULE_DISPLAY.en_conmutador_DFFR_Q_DFFLC.A
+Info: 2.8 ns logic, 1.6 ns routing
+
+Info: Critical path report for cross-domain path '<async>' -> '<async>':
+Info: curr total
+Info:  0.0  0.0  Source SUBMODULE_BIN_BCD.rst_i_IBUF_O$iob.O
+Info:  8.1  8.1    Net SUBMODULE_BIN_BCD.rst_i budget 37.037037 ns (1,0) -> (22,12)
+Info:                Sink SUBMODULE_BIN_BCD.rst_i_LUT1_I0_LC.A
+Info:                Defined in:
+Info:                  ../design/module_7_segments.v:5.11-5.16
+Info:  0.0  8.1  Setup SUBMODULE_BIN_BCD.rst_i_LUT1_I0_LC.A
+Info: 0.0 ns logic, 8.1 ns routing
+
+Info: Critical path report for cross-domain path 'posedge SUBMODULE_BIN_BCD.clk_i' -> '<async>':
+Info: curr total
+Info:  0.5  0.5  Source SUBMODULE_DISPLAY.contador_digitos_DFFRE_Q_1_D_LUT1_F_LC.Q
+Info:  2.9  3.3    Net SUBMODULE_DISPLAY.contador_digitos[0] budget 36.579037 ns (25,15) -> (25,26)
+Info:                Sink SUBMODULE_DISPLAY.anodo_o_LUT2_F_2_LC.B
+Info:                Defined in:
+Info:                  ../design/module_7_segments.v:17.15-17.31
+Info:  1.1  4.4  Source SUBMODULE_DISPLAY.anodo_o_LUT2_F_2_LC.F
+Info:  4.8  9.2    Net SUBMODULE_DISPLAY.anodo_o[1] budget 17.740519 ns (25,26) -> (7,28)
+Info:                Sink anodo_po_OBUF_O_2$iob.I
+Info:                Defined in:
+Info:                  ../design/module_7_segments.v:7.24-7.31
+Info: 1.6 ns logic, 7.7 ns routing
+
+Info: Max frequency for clock 'SUBMODULE_BIN_BCD.clk_i': 224.22 MHz (PASS at 27.00 MHz)
+
+Info: Max delay <async>                         -> <async>: 8.14 ns
+Info: Max delay posedge SUBMODULE_BIN_BCD.clk_i -> <async>: 9.22 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 1 endpoint(s)
+Info:          + represents [1,1) endpoint(s)
+Info: [ 27817,  28256) |* 
+Info: [ 28256,  28695) | 
+Info: [ 28695,  29134) |**** 
+Info: [ 29134,  29573) |* 
+Info: [ 29573,  30012) |** 
+Info: [ 30012,  30451) | 
+Info: [ 30451,  30890) |* 
+Info: [ 30890,  31329) | 
+Info: [ 31329,  31768) | 
+Info: [ 31768,  32207) |** 
+Info: [ 32207,  32646) |** 
+Info: [ 32646,  33085) |* 
+Info: [ 33085,  33524) |** 
+Info: [ 33524,  33963) |******** 
+Info: [ 33963,  34402) |**** 
+Info: [ 34402,  34841) |*********** 
+Info: [ 34841,  35280) | 
+Info: [ 35280,  35719) |******** 
+Info: [ 35719,  36158) |***** 
+Info: [ 36158,  36597) |********************* 
+
+Info: Program finished normally.
